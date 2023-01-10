@@ -1,5 +1,21 @@
 body {
     background-color: rgb(172, 172, 172);
+    margin: 0;
+    padding: 0;
+}
+/* ==========  Header ============ */
+
+.top-nav {
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mainIcon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
 }
 
 ul {
@@ -7,6 +23,29 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 li {
     display: inline;
+    margin: 0 10px;
+}
+.links {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+#header-line {
+    margin: 10px;
+}
+#header-line a:link {
+    color:white;
+    text-decoration: none;
+}
+
+#header-line a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#header-line a:visited {
+    color: white;
+    text-decoration: none;
 }
