@@ -73,14 +73,28 @@ h6 {
 .icons {
     margin: 15px;
 }
-.btn {
-    background-color: #4d4d4d;
-    border: none;
+.icons a {
     color: black;
-    padding: 0 16px ;
-    font-size: 24px;
-    cursor:pointer;
 }
-.btn:hover {
-    color: white;
+
+#twitter:hover {
+    font-size: larger;
+    color: #1da1f2;
+}
+#instagram:hover {
+    font-size: larger;
+    padding: 2.5px;
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#youTube:hover {
+    font-size: larger;
+    color: red;
+}
+#tikTok:hover {
+    font-size: larger;
+    text-shadow: 2px 2px #ff0050,-1px -3px #00f2ea;
 }
