@@ -8,7 +8,8 @@ h1 {
 }
 /* ==========  Header ============ */
 header {
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     top:0;
     width: 100%;
 }
@@ -60,7 +61,7 @@ li {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     top: 0;
     width: 100%;
     background-color: #4d4d4d;
@@ -68,13 +69,21 @@ footer {
 h6 {
     font-size: 24px;
     margin: 15px 0;
-    padding: 0 16px;
+    padding: 5px 16px;
 }
 .icons {
+    display: flex;
+    justify-content: space-between;
     margin: 15px;
+    width: 200px;
+    
 }
 .icons a {
     color: black;
+    padding: 10px;
+}
+.icons a:hover {
+    padding: 10px;
 }
 
 #twitter:hover {
@@ -83,7 +92,7 @@ h6 {
 }
 #instagram:hover {
     font-size: larger;
-    padding: 2.5px;
+    padding: 10px;
     color: transparent;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
